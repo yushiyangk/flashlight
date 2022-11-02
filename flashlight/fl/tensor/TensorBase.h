@@ -1026,7 +1026,7 @@ Tensor isinf(const Tensor& tensor);
 Tensor sign(const Tensor& tensor);
 
 /**
- * Returns an upper triangular version of the tensor.
+ * Returns a lower triangular version of the tensor.
  *
  * For tensors that have greater than two dimensions, this function outputs a
  * tensor with lower triangular submatrices along the last two dimensions of the
